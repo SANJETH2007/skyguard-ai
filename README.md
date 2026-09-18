@@ -95,6 +95,4 @@ Issues and PRs welcome once this is pushed live — see [`CONTRIBUTING.md`](CONT
 
 MIT — see [`LICENSE`](LICENSE).
 
-## Team
 
-Built for SIH 2026. *(Add your team name and members here before submitting.)*
