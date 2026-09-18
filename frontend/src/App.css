@@ -1,0 +1,39 @@
+.app-shell {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.app-header h1 {
+  font-size: 26px;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.app-header p {
+  margin: 4px 0 0;
+  color: var(--text-dim);
+  font-size: 13px;
+  font-family: var(--font-mono);
+}
+
+.app-grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 18px;
+  align-items: start;
+}
+
+.app-col { display: flex; flex-direction: column; gap: 18px; }
+
+.app-col-map .station-map { min-height: 420px; }
+
+.app-col-feed { height: calc(100vh - 220px); min-height: 480px; }
+
+@media (max-width: 980px) {
+  .app-grid { grid-template-columns: 1fr; }
+  .app-col-feed { height: 480px; }
+}
